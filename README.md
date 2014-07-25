@@ -22,3 +22,4 @@ A series of instructions and scripts to set up a brand new mac to have all my de
     ```
     curl -L http://install.ohmyz.sh | sh
     ```
+9. Replace the existing `~/.zshrc` with the `zshrc` which is in this repository.
