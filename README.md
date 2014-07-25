@@ -15,4 +15,5 @@ A series of instructions and scripts to set up a brand new mac to have all my de
 5. Install [divvy](http://mizage.com/divvy/)
 6. Install [iTerm2](http://iterm2.com)
 7. Install [Sublime Text 3](http://sublimetext.com/3)
+8. Install [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
 
