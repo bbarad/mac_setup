@@ -14,6 +14,8 @@ A series of instructions and scripts to set up a brand new mac to have all my de
     ```  
     ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
     ```
+    Install brew taps with the `brew_taps.sh` script in this repository.
+    
 4. Install [alfred](http://www.alfredapp.com)
 5. Install [divvy](http://mizage.com/divvy/)
 6. Install [iTerm2](http://iterm2.com)
