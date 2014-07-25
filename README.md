@@ -29,3 +29,4 @@ A series of instructions and scripts to set up a brand new mac to have all my de
     ```
 10. Replace the existing `~/.zshrc` with the `zshrc` which is in this repository.
 11. Install python with the `install_brew_python.sh` script.
+

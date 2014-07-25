@@ -14,7 +14,7 @@ ZSH_THEME="ys"
 # DISABLE_AUTO_UPDATE="true"
 
 # Uncomment the following line to change how often to auto-update (in days).
-# export UPDATE_ZSH_DAYS=13
+export UPDATE_ZSH_DAYS=14
 
 # Uncomment the following line to disable colors in ls.
 # DISABLE_LS_COLORS="true"
@@ -52,7 +52,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 export PATH=".:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-# export MANPATH="/usr/local/man:$MANPATH"
+export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -77,3 +77,5 @@ fi
 #
 alias zshconfig="st ~/.zshrc"
 alias ohmyzsh="st ~/.oh-my-zsh"
+
+. /Applications/PHENIX-dev-1756/Contents/phenix-dev-1756/phenix_env.sh
