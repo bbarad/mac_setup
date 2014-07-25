@@ -4,7 +4,7 @@ mac_setup
 A series of instructions and scripts to set up a brand new mac to have all my desired settings.
 
 #### This guide begins immediately after clearing the setup window.
-1. Install XCode on the app store. This download takes a while so I wanted it to go first. Once it is installed, agree to the license.
+1. Install XCode on the app store. This download takes a while so I wanted it to go first. Once it is installed, agree to the license.  
     ```
     sudo xcodebuild -license
     ```
