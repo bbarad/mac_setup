@@ -18,8 +18,9 @@ A series of instructions and scripts to set up a brand new mac to have all my de
 5. Install [divvy](http://mizage.com/divvy/)
 6. Install [iTerm2](http://iterm2.com)
 7. Install [Sublime Text 3](http://sublimetext.com/3)
-8. Install [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)   
+8. Install [Package Control](https://sublime.wbond.net/installation) for Sublime Text 
+9. Install [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)   
     ```
     curl -L http://install.ohmyz.sh | sh
     ```
-9. Replace the existing `~/.zshrc` with the `zshrc` which is in this repository.
+10. Replace the existing `~/.zshrc` with the `zshrc` which is in this repository.
