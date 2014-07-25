@@ -17,8 +17,8 @@ A series of instructions and scripts to set up a brand new mac to have all my de
 4. Install [alfred](http://www.alfredapp.com)
 5. Install [divvy](http://mizage.com/divvy/)
 6. Install [iTerm2](http://iterm2.com)
-7. Install [Sublime Text 3](http://sublimetext.com/3)
-   Install Package "Git"
+7. Install [Sublime Text 3](http://sublimetext.com/3)  
+   Install Package "Git"  
    Install Package "Latexing"
 8. Install [Package Control](https://sublime.wbond.net/installation) for Sublime Text 
 9. Install [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)   
