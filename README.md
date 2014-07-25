@@ -11,7 +11,7 @@ A series of instructions and scripts to set up a brand new mac to have all my de
 2. Install [chrome](https://www.google.com/chrome/)  
     This may be replaced with firefox, or ignored if safari is preferred.
 3. Install [homebrew](http://brew.sh/)  
-    ```ruby
+    ```Ruby  
     ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
     ```
 4. Install [alfred](http://www.alfredapp.com)
