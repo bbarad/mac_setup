@@ -3,6 +3,9 @@ mac_setup
 
 A series of instructions and scripts to set up a brand new mac to have all my desired settings.
 
+## NOTE: LOTS OF THIS CAN BE DONE WITH HOMEBREW-CASK. UPDATE INCOMING.
+
+
 #### This guide begins immediately after clearing the setup window.
 1. Install XCode on the app store. This download takes a while so I wanted it to go first. Once it is installed, agree to the license.  
     ```
