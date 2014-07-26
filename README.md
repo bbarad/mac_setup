@@ -20,13 +20,15 @@ A series of instructions and scripts to set up a brand new mac to have all my de
 5. Install [divvy](http://mizage.com/divvy/)
 6. Install [iTerm2](http://iterm2.com)
 7. Install [Sublime Text 3](http://sublimetext.com/3)  
+    Associate sublime text with the command "subl" via `ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl`
+8. Install [Package Control](https://sublime.wbond.net/installation) for Sublime Text   
    Install Package "Git"  
    Install Package "Latexing"
-8. Install [Package Control](https://sublime.wbond.net/installation) for Sublime Text 
 9. Install [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)   
     ```
     curl -L http://install.ohmyz.sh | sh
     ```
-10. Replace the existing `~/.zshrc` with the `zshrc` which is in this repository.
-11. Install python with the `install_brew_python.sh` script.
-
+10. Install python with the `install_brew_python.sh` script.
+11. Install phenix in the usual way. I installed phenix
+12. Replace the existing `~/.zshrc` with the `zshrc` which is in this repository.
+    Note: this .zshrc file includes sourcing phenix-dev-1756 at the bottom. If you have a different version, edit it accordingly.

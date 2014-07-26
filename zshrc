@@ -61,7 +61,7 @@ export MANPATH="/usr/local/man:$MANPATH"
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vim'
 else
-  export EDITOR='st -n -w'
+  export EDITOR='subl -n -w'
 fi
 
 # Compilation flags
@@ -75,7 +75,8 @@ fi
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-alias zshconfig="st ~/.zshrc"
-alias ohmyzsh="st ~/.oh-my-zsh"
+alias zshconfig="subl ~/.zshrc"
+alias ohmyzsh="subl ~/.oh-my-zsh"
+alias ll="ls -alrt"
 
 . /Applications/PHENIX-dev-1756/Contents/phenix-dev-1756/phenix_env.sh
