@@ -29,6 +29,9 @@ A series of instructions and scripts to set up a brand new mac to have all my de
     curl -L http://install.ohmyz.sh | sh
     ```
 10. Install python with the `install_brew_python.sh` script.
-11. Install phenix in the usual way. I installed phenix
-12. Replace the existing `~/.zshrc` with the `zshrc` which is in this repository.
+11. Install phenix in the usual way. I installed phenix-dev-1756.
+12. Install [XQuartz](http://xquartz.macosforge.org/landing/)
+13. Install [Coot](http://scottlab.ucsc.edu/~wgscott/xtal/wiki/index.php/Stand-alone_Coot_for_10.9)
+14. Install [Pymol](http://pymol.org)
+15. Replace the existing `~/.zshrc` with the `zshrc` which is in this repository.
     Note: this .zshrc file includes sourcing phenix-dev-1756 at the bottom. If you have a different version, edit it accordingly.
