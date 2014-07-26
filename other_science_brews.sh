@@ -11,6 +11,9 @@ brew install r
 # Imagemagick
 brew install imagemagick
 
+# ffmpeg
+brew install ffmpeg
+
 # gnuplot
 # brew install gnuplot --cairo
 
