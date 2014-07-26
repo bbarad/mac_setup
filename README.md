@@ -35,3 +35,5 @@ A series of instructions and scripts to set up a brand new mac to have all my de
 14. Install [Pymol](http://pymol.org)
 15. Replace the existing `~/.zshrc` with the `zshrc` which is in this repository.
     Note: this .zshrc file includes sourcing phenix-dev-1756 at the bottom. If you have a different version, edit it accordingly.
+16. Install [evernote](https://evernote.com/)
+17. Install other scientific tools with `other_science_brews.sh` (this is misleading and actually includes a couple of pip commands)
