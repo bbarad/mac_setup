@@ -33,7 +33,7 @@ A series of instructions and scripts to set up a brand new mac to have all my de
 12. Install [XQuartz](http://xquartz.macosforge.org/landing/)
 13. Install [Coot](http://scottlab.ucsc.edu/~wgscott/xtal/wiki/index.php/Stand-alone_Coot_for_10.9)
 14. Install [Pymol](http://pymol.org)
-15. Replace the existing `~/.zshrc` with the `zshrc` which is in this repository.
+15. Replace the existing `~/.zshrc` with the `.zshrc` which is in this repository.
     Note: this .zshrc file includes sourcing phenix-dev-1756 at the bottom. If you have a different version, edit it accordingly.
 16. Install [evernote](https://evernote.com/)
 17. Install other scientific tools with `other_science_brews.sh` (this is misleading and actually includes a couple of pip commands). You might want to edit this depending on what tools you want.
