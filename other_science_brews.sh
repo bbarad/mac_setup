@@ -1,3 +1,5 @@
+# Deprecated and rolled into brew installers.
+
 # Julia
 brew tap staticfloat/julia
 brew install julia

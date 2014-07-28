@@ -8,32 +8,24 @@ A series of instructions and scripts to set up a brand new mac to have all my de
     ```
     sudo xcodebuild -license
     ```
-2. Install [chrome](https://www.google.com/chrome/)  
-    This may be replaced with firefox, or ignored if safari is preferred.
-3. Install [homebrew](http://brew.sh/)  
-    ```  
-    ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
-    ```
-    Install brew taps with the `brew_taps.sh` script in this repository.  
-    Install git with `brew install git`
-4. Install [alfred](http://www.alfredapp.com)
-5. Install [divvy](http://mizage.com/divvy/)
-6. Install [iTerm2](http://iterm2.com)
-7. Install [Sublime Text 3](http://sublimetext.com/3)  
+2. Install [Homebrew](http://brew.sh/) and [Homebrew-cask](http://caskroom.io) with `sh ./brew_setup.sh`
+3. Install various homebrew and homebrew-cask apps with `sh ./app_installers.sh`
+4. Install [Sublime Text 3](http://sublimetext.com/3)    
+  *Note: this is only necessary if you don't install sublime text with homebrew-cask*  
     Associate sublime text with the command "subl" via `ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl`
-8. Install [Package Control](https://sublime.wbond.net/installation) for Sublime Text   
-   Install Package "Git"  
-   Install Package "Latexing"
-9. Install [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)   
+5. Install [Package Control](https://sublime.wbond.net/installation) for Sublime Text   
+   Install Package: "Git"  
+   Install Package: "Latexing"
+6. Install [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)   
     ```
     curl -L http://install.ohmyz.sh | sh
     ```
-10. Install python with the `install_brew_python.sh` script.
-11. Install phenix in the usual way. I installed phenix-dev-1756.
-12. Install [XQuartz](http://xquartz.macosforge.org/landing/)
-13. Install [Coot](http://scottlab.ucsc.edu/~wgscott/xtal/wiki/index.php/Stand-alone_Coot_for_10.9)
-14. Install [Pymol](http://pymol.org)
-15. Replace the existing `~/.zshrc` with the `zshrc` which is in this repository.
-    Note: this .zshrc file includes sourcing phenix-dev-1756 at the bottom. If you have a different version, edit it accordingly.
-16. Install [evernote](https://evernote.com/)
-17. Install other scientific tools with `other_science_brews.sh` (this is misleading and actually includes a couple of pip commands). You might want to edit this depending on what tools you want.
+7. Install [Phenix](http://www.phenix-online.org) in the usual way. I installed phenix-dev-1756.
+8. Install [Coot](http://scottlab.ucsc.edu/~wgscott/xtal/wiki/index.php/Stand-alone_Coot_for_10.9)
+9. Install [Pymol](http://pymol.org)
+10. Replace the existing `~/.zshrc` with the `.zshrc` which is in this repository.
+    Note: this .zshrc file includes sourcing phenix-dev-1756 at the bottom. If you have a different version, edit it accordingly.  
+    Example: `mv ./.zshrc ~/.zshrc`
+
+
+**You should now be all set! Some configurations may still be required but at least everything should be installed!**
