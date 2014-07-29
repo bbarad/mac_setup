@@ -6,19 +6,19 @@ brew install git
 # Python
 
 brew install python
-pip install pillow numpy scipy ipython[notebook] sympy pandas biopython nose virtualenv virtualenvwrapper argparse phil 
+pip install pillow numpy matplotlib scipy ipython[notebook] sympy pandas biopython nose virtualenv virtualenvwrapper argparse phil 
 
 ## R - this is already tapped in homebrew/science
 brew install r
-
-## GFortran - Also in homebrew/science
-# brew install gfortran
 
 ## Imagemagick
 brew install imagemagick
 
 ## ffmpeg
 brew install ffmpeg
+
+## tmux - similar to "screen"
+brew install tmux
 
 ## gnuplot
 # brew install gnuplot --cairo
