@@ -7,7 +7,7 @@ A series of instructions and scripts to set up a brand new mac to have all my de
 1. Install XCode on the app store. This download takes a while so I wanted it to go first. Once it is installed, agree to the license.  
     ```
     sudo xcodebuild -license
-    ```
+    ```  
     *Note: if you don't plan to do any programming in xcode, you can just install the command line tools with* `xcode-select --install`. *If you choose to do this, you still need to agree to the license.*
 2. Clone this repository!
     ```
