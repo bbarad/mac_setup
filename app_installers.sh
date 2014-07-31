@@ -48,8 +48,14 @@ brew cask install appzapper
 # Archiver
 brew cask install archiver
 
+# Box-sync
+brew cask install box-sync
+
 # Chrome
 brew cask install google-chrome
+
+# Daisy Disk
+brew cask install daisydisk
 
 # Divvy
 brew cask install divvy
@@ -60,11 +66,26 @@ brew cask install dropbox
 # Evernote
 brew cask install evernote
 
+# iStat-Menus
+brew cask install istat-menus
+
 # iTerm2
 brew cask install iterm2
 
-# Sublime Text 2 (Note that you can't do sublime text 3 yet...)
+# Julia
+brew cask install julia
+
+# Macdown
+brew cask install macdown
+
+# Mou
+# brew cask install mou
+
+# Sublime Text 2 
 # brew cask install sublime-text
+
+# Sublime Text 3 - note: requires the caskroom/versions tap
+brew cask install sublime-text3
 
 # TextExpander
 brew cask install textexpander
