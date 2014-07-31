@@ -90,6 +90,9 @@ brew cask install sublime-text3
 # TextExpander
 brew cask install textexpander
 
+# VLC
+brew cask install vlc
+
 # XQuartz
 brew cask install xquartz
 
