@@ -7,3 +7,4 @@ brew install caskroom/cask/brew-cask
 # Tap dupes and science... for science
 brew tap homebrew/science
 brew tap homebrew/dupes
+brew tap caskroom/versions
