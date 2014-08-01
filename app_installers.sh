@@ -40,6 +40,9 @@ brew install tmux
 
 # Alfred
 brew cask install alfred
+
+# Link homebrew-cask apps to alfred.
+open -a Alfred\ 2
 brew cask alfred link
 
 # AppZapper
