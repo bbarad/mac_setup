@@ -18,7 +18,7 @@ A series of instructions and scripts to set up a brand new mac to have all my de
 3. Install [Homebrew](http://brew.sh/) and [Homebrew-cask](http://caskroom.io) with `sh ./brew_setup.sh`
 4. Install various homebrew and homebrew-cask apps with `sh ./app_installers.sh`
 5. Install [Sublime Text 3](http://sublimetext.com/3)    
-  **_Note: this is only necessary if you don't install sublime text with homebrew-cask_** 
+  **_Note: this is only necessary if you don't install sublime text with homebrew-cask_**   
     Associate sublime text with the command "subl" via `ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl`
 6. Install [Package Control](https://sublime.wbond.net/installation) for Sublime Text   
    Install Package: "Git"  
