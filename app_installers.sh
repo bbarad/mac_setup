@@ -6,7 +6,7 @@ brew install git
 # Python
 
 brew install python
-/usr/local/bin/pip install pillow numpy matplotlib scipy ipython[notebook] sympy pandas biopython nose virtualenv virtualenvwrapper argparse phil 
+/usr/local/bin/pip install pillow numpy matplotlib scipy ipython[notebook] jupiter sympy pandas biopython nose virtualenv virtualenvwrapper argparse phil scikit-learn 
 
 ## R - this is already tapped in homebrew/science
 brew install r
@@ -24,17 +24,15 @@ brew install tmux
 # brew install gnuplot --cairo
 
 ## Javascript things
-# brew install node
-# npm install -g coffee-script
+brew install node
+npm install -g coffee-script
 
 ## Python 3 (why?)
-# brew install python3
+brew install python3
 
 ## pypy
 # brew install pypy
 
-## extra python things
-# pip install scikit-learn
 
 ############# CASK APPS
 
@@ -51,26 +49,26 @@ brew cask install appzapper
 # Archiver
 brew cask install archiver
 
-# Box-sync
-brew cask install box-sync
+# Google Drive
+brew cask install google-drive
 
 # Chrome
 brew cask install google-chrome
 
 # Daisy Disk
-brew cask install daisydisk
+# brew cask install daisydisk
 
 # Divvy
-brew cask install divvy
+# brew cask install divvy
 
 # Dropbox
-brew cask install dropbox
+# brew cask install dropbox
 
 # Evernote
 brew cask install evernote
 
 # iStat-Menus
-brew cask install istat-menus
+# brew cask install istat-menus
 
 # iTerm2
 brew cask install iterm2
@@ -90,8 +88,17 @@ brew cask install macdown
 # Sublime Text 3 - note: requires the caskroom/versions tap
 brew cask install sublime-text3
 
+# Atom.io
+brew cask install atom
+
+# Visual Studio Code
+brew cask install visual-studio-code
+
+# PyCharm
+brew cask install pycharm
+
 # TextExpander
-brew cask install textexpander
+# brew cask install textexpander
 
 # VLC
 brew cask install vlc
